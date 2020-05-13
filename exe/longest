@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+lines = Array.new
+(lines << $_) while gets
+puts lines.sort_by { |line| line.length }
